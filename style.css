@@ -98,6 +98,17 @@ p {
   text-align: center;
   border-radius: 10px;
   margin-bottom: 15px;
+  box-shadow: 0px 10px 15px 0px hsla(245, 75%, 52%, 0.3);
+  transition: background-color 0.2s ease;
+  -webkit-transition: background-color 0.2s ease;
+  -moz-transition: background-color 0.2s ease;
+  -ms-transition: background-color 0.2s ease;
+  -o-transition: background-color 0.2s ease;
+}
+
+.payment-btn:hover {
+  cursor: pointer;
+  background-color: hsla(245, 75%, 52%, 0.8);
 }
 
 .cancel-btn {
