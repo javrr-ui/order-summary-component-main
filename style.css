@@ -104,7 +104,7 @@ p {
   font-weight: 800;
 }
 
-.sepa {
+.price-card-subcontainer {
   display: flex;
   flex-direction: row;
   align-items: center;
