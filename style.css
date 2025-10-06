@@ -113,6 +113,17 @@ p {
 
 .cancel-btn {
   font-weight: 800;
+  transition: color 0.2s ease;
+  -webkit-transition: color 0.2s ease;
+  -moz-transition: color 0.2s ease;
+  -ms-transition: color 0.2s ease;
+  -o-transition: color 0.2s ease;
+}
+
+.cancel-btn:hover {
+  font-weight: 800;
+  color: black;
+  cursor: pointer;
 }
 
 .price-card-subcontainer {
