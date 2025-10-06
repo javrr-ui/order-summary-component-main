@@ -57,10 +57,47 @@ p {
 }
 
 .container .title {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .container p {
-    width: 300px;
-    text-align: center;
+  width: 300px;
+  text-align: center;
+}
+
+.price-card h1 {
+  font-size: 16px;
+}
+
+.price-card {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  margin: 20px 0;
+}
+
+.plan-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.payment-btn {
+  font-weight: 700;
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  width: 350px;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.cancel-btn {
+  font-weight: 700;
 }
