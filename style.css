@@ -8,6 +8,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgb(223, 232, 255);
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 1444px) {
