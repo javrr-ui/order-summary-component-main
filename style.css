@@ -1,9 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
 * {
   margin: 0;
   box-sizing: border-box;
 }
 
 body {
+  font-family: "Red Hat Display", Arial;
+
   background-image: url("images/pattern-background-desktop.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,4 +28,23 @@ body {
   border-radius: 20px;
   background-color: white;
   width: 450px;
+}
+
+h1 {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+
+p {
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+}
+
+.payment-btn {
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+}
+
+.cancel-btn {
+  color: hsl(224, 23%, 55%);
 }
