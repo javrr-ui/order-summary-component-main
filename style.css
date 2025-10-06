@@ -1,4 +1,17 @@
 * {
-    margin: 0;
-    box-sizing: border-box;;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(223, 232, 255);
+}
+
+@media (max-width: 1444px) {
+  body {
+    background-size: contain;
+  }
 }
