@@ -17,3 +17,11 @@ body {
     background-size: contain;
   }
 }
+
+.card {
+  margin-top: 100px;
+  overflow: hidden;
+  border-radius: 20px;
+  background-color: white;
+  width: 450px;
+}
